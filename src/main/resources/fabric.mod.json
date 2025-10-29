@@ -3,7 +3,7 @@
   "id": "roofify",
   "version": "${version}",
   "name": "Roofify",
-  "description": "A Fabric Mod that shows you how many bedrocks are under you on the nether roof.",
+  "description": "Client-side Fabric mod that overlays indicators above Nether roof bedrock to reveal what’s directly below. Green checkmarks for non-bedrock and counters for bedrock stacks helping you quickly spot openings. Configurable and toggleable.",
   "authors": ["Ris"],
   "contact": {
     "homepage": "https://modrinth.com/mod/roofify",
