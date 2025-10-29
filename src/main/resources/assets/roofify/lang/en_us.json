@@ -13,7 +13,12 @@
 
   "roofify.modmenu.title": "Roofify Settings",
 
-  "roofify.modmenu.toggle_tooltip": "Toggle Roofify On or Off. Keep in mind that the render only happens if you are on the nether roof, above Y level 125",
+  "roofify.modmenu.toggle": "Render: %s",
+  "roofify.modmenu.toggle_tooltip": "Toggle Roofify On or Off. Keep in mind that the render only happens if you are on the nether roof, above Y level 125.",
+
+  "roofify.modmenu.include_roof_level": "Include Roof Level: %s",
+  "roofify.modmenu.include_roof_level_tooltip": "When enabled, Roofify will include the roof level block itself in its calculations.",
+
   "roofify.modmenu.back_tooltip": "byeeee",
 
   "roofify.modmenu.radius.horizontal": "Horizontal Render Radius: %d",

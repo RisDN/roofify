@@ -14,7 +14,7 @@ public class ToggleRenderButton extends ButtonWidget {
         }), ButtonWidget.DEFAULT_NARRATION_SUPPLIER);
 
         boolean isEnabled = RoofifyConfigLoader.config.enabled;
-        this.setMessage(Text.translatable(isEnabled ? "options.on" : "options.off"));
+        this.setMessage(Text.translatable("roofify.modmenu.toggle", Text.translatable(isEnabled ? "options.on" : "options.off")));
         this.setTooltip(Tooltip.of(Text.translatable("roofify.modmenu.toggle_tooltip")));
     }
 
@@ -33,7 +33,7 @@ public class ToggleRenderButton extends ButtonWidget {
 
             boolean isEnabled = RoofifyConfigLoader.config.enabled;
 
-            button.setMessage(Text.translatable(isEnabled ? "options.on" : "options.off"));
+            button.setMessage(Text.translatable("roofify.modmenu.toggle", Text.translatable(isEnabled ? "options.on" : "options.off")));
         }
 
     }

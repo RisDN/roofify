@@ -22,13 +22,18 @@ public class RoofifyConfig {
     public int render_interval = 20;
     public int render_distance_horizontal = 8;
     public int render_distance_vertical = 4;
-    public int max_bedrock_count = 6;
 
     protected RoofifyConfig() {
     }
 
     public RenderMode getRenderMode() {
         return RenderMode.getByType(this.render_mode);
+    }
+
+    public boolean toggleRoofLevel() {
+        this.include_roof_level = !this.include_roof_level;
+        this.save();
+        return this.include_roof_level;
     }
 
     public void setRenderMode(RenderMode renderMode) {

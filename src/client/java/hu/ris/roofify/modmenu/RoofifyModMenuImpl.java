@@ -7,6 +7,7 @@ import hu.ris.roofify.configuration.RoofifyConfigLoader;
 import hu.ris.roofify.modmenu.elements.BackButton;
 import hu.ris.roofify.modmenu.elements.CycleRenderModeButton;
 import hu.ris.roofify.modmenu.elements.HorizontalRadiusSlider;
+import hu.ris.roofify.modmenu.elements.ToggleIncludeRoofLevelButton;
 import hu.ris.roofify.modmenu.elements.ToggleRenderButton;
 import hu.ris.roofify.modmenu.elements.VerticalRadiusSlider;
 import net.minecraft.client.gui.screen.Screen;
@@ -25,9 +26,17 @@ public class RoofifyModMenuImpl implements ModMenuApi {
         return (Screen parent) -> new RoofifyConfigScreen(parent);
     }
 
-    static class RoofifyConfigScreen extends Screen {
+    public static class RoofifyConfigScreen extends Screen {
+
+        private final Screen previous;
+
         protected RoofifyConfigScreen(Screen parent) {
             super(Text.translatable("roofify.modmenu.title"));
+            this.previous = parent;
+        }
+
+        public Screen getPrevious() {
+            return this.previous;
         }
 
         @Override
@@ -45,6 +54,12 @@ public class RoofifyModMenuImpl implements ModMenuApi {
             this.addDrawableChild(toggleRenderButton);
 
             currentY += SIZE_HEIGHT + SPACING_Y;
+
+            ToggleIncludeRoofLevelButton toggleIncludeRoofLevelButton = new ToggleIncludeRoofLevelButton(x, currentY);
+            this.addDrawableChild(toggleIncludeRoofLevelButton);
+
+            currentY += SIZE_HEIGHT + SPACING_Y;
+
             CycleRenderModeButton cycleRenderModeButton = new CycleRenderModeButton(x, currentY);
             this.addDrawableChild(cycleRenderModeButton);
 

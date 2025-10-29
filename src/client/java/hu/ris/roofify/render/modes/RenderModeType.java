@@ -7,4 +7,8 @@ import hu.ris.roofify.render.RenderMode;
  */
 public enum RenderModeType {
     CHECKMARK, COUNT_BEDROCKS, COUNT_BEDROCKS_BREAK;
+
+    public String getSimpleName() {
+        return this.name().toLowerCase();
+    }
 }

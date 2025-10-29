@@ -18,7 +18,7 @@ public class CycleRenderModeButton extends ButtonWidget {
 
         String translationKey = "roofify.render_mode." + renderMode.getType().name().toLowerCase();
         this.setMessage(Text.translatable("roofify.modmenu.cycle_render_mode", Text.translatable(translationKey)));
-        this.setTooltip(Tooltip.of(Text.translatable("roofify.modmenu.cycle_render_mode_tooltip")));
+        this.setTooltip(Tooltip.of(Text.translatable("roofify.modmenu.cycle_render_mode.tooltip." + renderMode.getType().getSimpleName())));
     }
 
     static class PressToggleRender implements PressAction {
@@ -38,6 +38,8 @@ public class CycleRenderModeButton extends ButtonWidget {
 
             String translationKey = "roofify.render_mode." + newRenderMode.getType().name().toLowerCase();
             button.setMessage(Text.translatable("roofify.modmenu.cycle_render_mode", Text.translatable(translationKey)));
+            button.setTooltip(Tooltip.of(Text.translatable("roofify.modmenu.cycle_render_mode.tooltip." + newRenderMode.getType().getSimpleName())));
+
         }
 
     }
