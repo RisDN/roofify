@@ -1,6 +1,8 @@
 
 ## <p align="center">Roofify</p>
-Fully client-sided Fabric mod that **overlays indicators above Nether roof bedrock to reveal what’s directly below**. Helpful when trying to find the best spot to break bedrock.
+<p align="center">
+Fully client-sided Fabric mod that overlays indicators above Nether roof bedrock to reveal what’s directly below. Helpful when trying to find the best spot to break bedrock.
+</p>
 
 <div style="display: inline" align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.21.8-purple">
