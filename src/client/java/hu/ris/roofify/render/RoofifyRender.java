@@ -27,7 +27,7 @@ import net.minecraft.world.World;
 public class RoofifyRender {
 
     private static final int maxY = 127; // roof level
-    private static final int maxMinY = 122; // the lowest level where bedrock can be
+    private static final int maxMinY = 123; // the lowest level where bedrock can be
 
     private static final List<CachedBlock> blocksCached = new ArrayList<>();
 
