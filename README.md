@@ -40,7 +40,7 @@ Contributions are always welcomed in any form! If you have an idea, you can shar
 
 
 ## Credits
-- The core text rendering approach in `RenderUtils` is based on work by **dark-lion-jp** from the [Light Level 2025](https://modrinth.com/mod/light-level-2025) mod (adapted and trimmed to this mod's needs). Thank you!
+The core text rendering approach in `RenderUtils` is based on work by **dark-lion-jp** from the [Light Level 2025](https://modrinth.com/mod/light-level-2025) mod (adapted and trimmed to this mod's needs). Thank you!
 
 
 ## License
