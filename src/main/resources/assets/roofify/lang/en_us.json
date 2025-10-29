@@ -1,0 +1,13 @@
+{
+  "category.roofify.keybindings": "Roofify",
+
+  "key.roofify.toggle_roofify": "Toggle Roofify On/Off",
+  "roofify.keybind.enabled": "§aRoofify: §2Enabled",
+  "roofify.keybind.disabled": "§cRoofify: §4Disabled",
+
+  "roofify.render_mode.switched": "§eRoofify Render Mode: §6%s",
+  "key.roofify.cycle_render_mode": "Cycle Roofify Render Mode",
+  "roofify.render_mode.checkmark": "Checkmarks",
+  "roofify.render_mode.count_bedrocks": "Count Bedrocks",
+  "roofify.render_mode.count_bedrocks_break": "Count Bedrocks with Break Indicator"
+}
