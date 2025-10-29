@@ -30,7 +30,8 @@ public class RoofifyRender {
     private static final int maxMinY = 123; // the lowest level where bedrock can be
 
     private static final List<CachedBlock> blocksCached = new ArrayList<>();
-    private static int frames = 0;
+
+    protected static int frames = 0;
 
     public static int getMaxY() {
         return maxY;

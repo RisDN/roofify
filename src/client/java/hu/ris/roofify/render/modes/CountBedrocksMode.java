@@ -6,6 +6,11 @@ import hu.ris.roofify.render.RenderMode;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 
+/**
+ * A render mode that counts the number of bedrock blocks directly below the
+ * bedrock. This one doesn't stop counting when a non-bedrock block is
+ * encountered.
+ */
 public class CountBedrocksMode extends RenderMode {
 
     public CountBedrocksMode() {

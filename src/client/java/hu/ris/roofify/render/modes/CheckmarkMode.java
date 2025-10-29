@@ -6,6 +6,10 @@ import hu.ris.roofify.render.RenderMode;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 
+/**
+ * A render mode that displays checkmarks for non-bedrock blocks and crossmarks
+ * for bedrock blocks.
+ */
 public class CheckmarkMode extends RenderMode {
 
     private final String bedrockDisplay = "§c✖";

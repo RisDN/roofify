@@ -18,6 +18,11 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Box;
 import net.minecraft.world.World;
 
+/**
+ * Utility class for rendering text in the world. Heavily inspired and modified
+ * from Light Level 2025 mod:
+ * {@link https://github.com/dark-lion-jp/light-level-2025/}
+ */
 public class RenderUtils {
 
     public static void draw(MatrixStack matrices, TextRenderer textRenderer, VertexConsumerProvider.Immediate bufferSource, BlockPos positionToDraw, Quaternionf cameraRotation, String textToDraw, float textScale, int textColor, float textOffsetY) {

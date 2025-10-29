@@ -2,6 +2,11 @@ package hu.ris.roofify.render;
 
 import net.minecraft.util.math.BlockPos;
 
+/**
+ * Represents a cached block with its position and associated text rendering
+ * properties. Used when rendering text on the bedrocks, so we don't have to
+ * recalculate everything every frame. See {@link RoofifyRender#frames}
+ */
 class CachedBlock {
 
     public final BlockPos position;
