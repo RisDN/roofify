@@ -3,14 +3,14 @@
   "id": "roofify",
   "version": "${version}",
   "name": "Roofify",
-  "description": "displays block-light-level on top of the solid blocks",
+  "description": "A Fabric Mod that shows you how many bedrocks are under you on the nether roof.",
   "authors": ["Ris"],
   "contact": {
-    "homepage": "https://modrinth.com/mod/light-level-2025",
-    "sources": "https://github.com/dark-lion-jp/light-level-2025"
+    "homepage": "https://modrinth.com/mod/roofify",
+    "sources": "https://github.com/risdn/roofify"
   },
   "license": "MIT",
-  "icon": "assets/light_level_2025/icon.png",
+  "icon": "assets/roofify/roofify_icon.png",
   "environment": "*",
   "entrypoints": {
     "client": ["hu.ris.roofify.RoofifyClient"]
