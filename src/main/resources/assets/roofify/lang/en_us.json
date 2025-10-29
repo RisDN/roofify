@@ -9,5 +9,21 @@
   "key.roofify.cycle_render_mode": "Cycle Roofify Render Mode",
   "roofify.render_mode.checkmark": "Checkmarks",
   "roofify.render_mode.count_bedrocks": "Count Bedrocks",
-  "roofify.render_mode.count_bedrocks_break": "Count Bedrocks with Break Indicator"
+  "roofify.render_mode.count_bedrocks_break": "Count Bedrocks Break",
+
+  "roofify.modmenu.title": "Roofify Settings",
+
+  "roofify.modmenu.toggle_tooltip": "Toggle Roofify On or Off. Keep in mind that the render only happens if you are on the nether roof, above Y level 125",
+  "roofify.modmenu.back_tooltip": "byeeee",
+
+  "roofify.modmenu.radius.horizontal": "Horizontal Render Radius: %d",
+  "roofify.modmenu.radius.horizontal_tooltip": "Adjust the horizontal render radius of Roofify.",
+
+  "roofify.modmenu.radius.vertical": "Vertical Render Radius: %d",
+  "roofify.modmenu.radius.vertical_tooltip": "Adjust the vertical render radius of Roofify.",
+
+  "roofify.modmenu.cycle_render_mode": "Render Mode: %s",
+  "roofify.modmenu.cycle_render_mode.tooltip.checkmark": "In this mode Roofify shows green checkmarks for non-bedrock blocks and red crosses for bedrock blocks in the column below the roof. Read left to right: the first symbol represents the block directly under the roof (or the roof block itself if \"Include Roof Level\" is enabled), the next symbol is the block below it, and so on.",
+  "roofify.modmenu.cycle_render_mode.tooltip.count_bedrocks": "In this mode Roofify shows a number above the bedrock indicating how many bedrock blocks are in the column starting from the block directly under the roof (or the roof block itself if \"Include Roof Level\" is enabled) downwards. It does not stop at non-bedrock blocks, so the count may be greater than 0 even if the first block under the roof is not bedrock.",
+  "roofify.modmenu.cycle_render_mode.tooltip.count_bedrocks_break": "Same as the \"Count Bedrocks\" mode, but counting stops at the first non-bedrock block. For example, if the block directly under the roof is dirt, it will show 0 even if there are bedrock blocks further below. This also respects \"Include Roof Level\"."
 }

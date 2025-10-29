@@ -7,13 +7,15 @@
   "authors": ["Ris"],
   "contact": {
     "homepage": "https://modrinth.com/mod/roofify",
-    "sources": "https://github.com/risdn/roofify"
+    "sources": "https://github.com/risdn/roofify",
+    "issues": "https://github.com/risdn/roofify/issues"
   },
   "license": "MIT",
   "icon": "assets/roofify/roofify_icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": ["hu.ris.roofify.RoofifyClient"]
+    "client": ["hu.ris.roofify.RoofifyClient"],
+    "modmenu": ["hu.ris.roofify.modmenu.RoofifyModMenuImpl"]
   },
   "mixins": [],
   "depends": {
@@ -21,5 +23,13 @@
     "minecraft": "~1.21.8",
     "java": ">=21",
     "fabric-api": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://dc.spygstudios.com",
+        "modmenu.issues": "https://github.com/risdn/roofify/issues"
+      }
+    }
   }
 }

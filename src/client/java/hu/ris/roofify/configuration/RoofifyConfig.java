@@ -64,6 +64,18 @@ public class RoofifyConfig {
         return this.enabled;
     }
 
+    public int setHorizontalRadius(int horizontalRadius) {
+        this.render_distance_horizontal = horizontalRadius;
+        this.save();
+        return this.render_distance_horizontal;
+    }
+
+    public int setVerticalRadius(int verticalRadius) {
+        this.render_distance_vertical = verticalRadius;
+        this.save();
+        return this.render_distance_vertical;
+    }
+
     public RoofifyConfig load() {
 
         if (!RoofifyConfigLoader.FILE.exists()) {

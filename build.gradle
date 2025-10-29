@@ -58,6 +58,8 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
+  	modImplementation("com.terraformersmc:modmenu:${project.modmenu_version}")
+
 	implementation "com.esotericsoftware.yamlbeans:yamlbeans:${project.yaml_beans_version}"
 	// Bundle yamlbeans into the mod jar so it's available at runtime
 	include "com.esotericsoftware.yamlbeans:yamlbeans:${project.yaml_beans_version}"
