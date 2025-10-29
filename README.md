@@ -10,7 +10,7 @@ Fully client-sided Fabric mod that **overlays indicators above Nether roof bedro
 </div>
 
 ![Roofify in action](https://cdn.modrinth.com/data/cached_images/947309e012126629801d1d8992bd6adeadf15f09.png)
-
+![Roofify ModMenu integration](https://github.com/RisDN/roofify/blob/main/src/main/resources/assets/roofify/roofify_modmenu.png?raw=true)
 
 ## Features:
 - Customizable keybindings: toggle on/off and switch render mode
