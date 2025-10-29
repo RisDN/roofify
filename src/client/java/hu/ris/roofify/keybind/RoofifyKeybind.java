@@ -21,6 +21,7 @@ public class RoofifyKeybind {
         renderModeKey = new KeyBinding("key.roofify.cycle_render_mode", GLFW.GLFW_KEY_N, "category.roofify.keybindings");
 
         KeyBindingHelper.registerKeyBinding(toggleKey);
+        KeyBindingHelper.registerKeyBinding(renderModeKey);
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             handleToggleInputEvent();
